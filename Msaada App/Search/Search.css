@@ -1,0 +1,19 @@
+.searchBtn{
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: teal;
+    
+}
+.search{
+    background:white;
+    height: 35px;
+    border: none;
+    padding: 10px;
+    color: black;
+    border-radius: 10px;
+    cursor:pointer;
+}
+.searchWrapper{
+    float:right;
+}

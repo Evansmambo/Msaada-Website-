@@ -1,0 +1,112 @@
+.donateBtn {
+    background: #2ecc71;
+    width: 200px;
+    padding: 10px;
+    
+    color: white;
+    border-radius: 4px;
+    border: #27ae60 1px solid;
+  
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 800;
+    font-size: 0.8em;
+  }
+  .cancelBtn{
+      background: red;
+    width: 200px;
+    padding-top: 5px;
+   padding: 10px;
+    color: white;
+    border-radius: 4px;
+    border: red 1px solid;
+  
+    margin-top: 20px;
+    margin-bottom: 20px;
+   
+    
+    font-weight: 800;
+    font-size: 0.8em;
+  
+  }
+  .modalBackground {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background-color: rgb(214, 218, 218);
+    top: 0; top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+    margin-top: 50px;
+  
+  }
+  .modalContainer {
+      width: 40%;
+      height: 480px;
+      border-radius: 12px;
+      background-color: white;
+      margin: 50px;
+      flex-direction: column;
+      padding: 25px;
+      -webkit-box-shadow: 4px 5px 10px -3px #000000; 
+      box-shadow: 4px 5px 10px -3px #000000;
+  }
+  .leadParagraph{
+      margin-top: 30px;
+      font-size: 30px;
+      font-family: 'Open Sans', sans-serif;
+  }
+  span{
+      
+      font-style: italic;
+      text-transform: capitalize;
+     
+  }
+  .contributionDetails{
+      margin-top: 20px;
+      font-size:16px;
+      font-family: 'Open Sans', sans-serif;
+  
+  }
+  .errorMessage{
+      font-size: 8px;
+      color: red;
+  }
+  p{
+      margin-top: 30px;
+      font-size:16px;
+      font-family: 'Open Sans', sans-serif;
+      color: rgb(110, 109, 109);
+  }
+  
+  .formButtons{
+      display: flex;
+      margin-top: 30px;
+      align-items: center;
+      justify-content: space-between;
+  }
+  .donationDetails{
+      margin-top: 30px;
+  }
+  .input{
+      width: 100%;
+      margin-top: 20px;
+      height: 30px;
+      padding: 20px;
+      border: #ccc 1px solid;
+      border-bottom: #ccc 2px solid;
+      color:#AAAAAA;
+      border-radius: 4px;
+      background:#ecf0f1;
+      font-size: 16px;
+      font-weight: 400;
+      font-family: 'Open Sans', sans-serif
+  }
+  .input:focus{
+      outline: none;
+  }

@@ -1,0 +1,191 @@
+.IndividualContributionWrapper {
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    top: 0;
+  }
+  .IndividualContribution {
+    flex: 6;
+    width: 100%;
+    margin-left: 50px;
+  }
+  .otherDiv {
+    flex: 6;
+  }
+  
+  .contributionHeader {
+    font-size: 30px !important;
+    margin-top: 50px;
+    text-transform: capitalize;
+    color: black;
+  }
+  .IndividualContribution > p {
+    font-size: 18px;
+    color: rgb(29, 28, 28);
+    font-weight: 400;
+    line-height: 25px;
+    justify-content: start;
+  }
+  .author {
+    margin-top: 20px;
+    color: rgb(22, 13, 13);
+  }
+  .author > span {
+    text-decoration: underline;
+  }
+  
+  .paymentButton {
+    width: 200px;
+    margin-top: 30px;
+    background: white;
+    color: black;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 20px;
+    border: 1px solid black;
+  }
+  .paymentButton:hover {
+    background: rgb(232, 236, 236);
+  }
+  .socialIcons {
+    display: flex;
+    margin-top: 40px;
+  }
+  .socialIcon {
+   
+  
+  
+  }
+  
+  .target {
+    margin-left: 10px;
+    margin-top: 30px;
+  }
+  .amount-raised-container {
+    margin: 40px;
+    margin-left: 30px;
+  }
+  
+  .amount-raised {
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    *vertical-align: auto;
+    *zoom: 1;
+    *display: inline;
+    background: #666;
+    border: 2px solid #333;
+    color: #fff;
+    padding: 10px 20px;
+    position: relative;
+    z-index: 2;
+  }
+  .amount-raised .amount-text {
+    font-weight: bold;
+  }
+  
+  .dollars-per-mile {
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    display: inline-block;
+    vertical-align: middle;
+    *vertical-align: auto;
+    *zoom: 1;
+    *display: inline;
+    background: #eee;
+    border: 1px solid #333;
+    padding: 5px 15px 5px 40px;
+    margin-left: -30px;
+    position: relative;
+    z-index: 1;
+  }
+  .editContribution {
+    margin-top: 40px;
+    margin-right: 50px;
+  }
+  .contributionBackground {
+    height: 100%;
+    width: 100% !;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background-color: rgb(214, 218, 218);
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+    margin-top: 50px;
+  }
+  .updateContributionForm {
+    width: 70%;
+    height: 500px;
+    border-radius: 12px;
+    background-color: white;
+    flex-direction: column;
+  
+    padding: 25px;
+    -webkit-box-shadow: 4px 5px 10px -3px #000000;
+    box-shadow: 4px 5px 10px -3px #000000;
+  }
+  .editForm {
+    display: flex;
+    flex-direction: row;
+  }
+  .inputs {
+    width: 50%;
+    margin-top: 0px;
+  }
+  .inputs > label {
+    text-transform: capitalize;
+    font-size: 16px;
+    margin-bottom: 0px;
+  }
+  .textareas {
+    width: 50%;
+    margin-left: 10px;
+  }
+  .textareas > textarea {
+    height: 100%;
+  }
+  .editBtns {
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-around;
+  }
+  .editBtn {
+    background: #2ecc71;
+    width: 40%;
+    padding: 10px;
+  
+    color: white;
+    border-radius: 4px;
+    border: #27ae60 1px solid;
+  
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 800;
+    font-size: 0.8em;
+  }
+  .cancelButton {
+    background: red;
+    width: 40%;
+    padding-top: 5px;
+    padding: 10px;
+    color: white;
+    border-radius: 4px;
+    border: red 1px solid;
+  
+    margin-top: 20px;
+    margin-bottom: 20px;
+  
+    font-weight: 800;
+    font-size: 0.8em;
+  }

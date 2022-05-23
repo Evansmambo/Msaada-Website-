@@ -1,0 +1,95 @@
+.createContributionContainer {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    position: fixed !important;
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+    max-height: 100% !important;
+  }
+  
+  .createContribution {
+    flex: 4;
+    max-height: 100% !important;
+    display: flex;
+    
+  }
+  .createContributionWrapper {
+    display: flex;
+  
+    position: relative;
+    width: 100%;
+    background-color: rgb(168, 165, 165);
+    flex: 4;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .formTitle {
+    float: left;
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 10px;
+  }
+  .formInputs {
+    margin-top: 20px;
+    margin: 30px;
+    height: 70%;
+    width: 80%;
+    margin-bottom: 10%;
+    display: flex;
+    position: absolute;
+    border-radius: 10px;
+    background: white;
+  }
+  
+  .inputs {
+    width: 50%;
+    height: 100%;
+    margin-left: 30px;
+    padding: 30px;
+  }
+  .label {
+    font-size: 16px;
+  }
+  
+  .input {
+    width: 100%;
+  }
+  .textareas {
+    margin: 30px;
+    width: 50%;
+    height: 39vh;
+  }
+  .textarea {
+    height: 100%;
+    margin-top: 20px;
+    width: 100%;
+    background-color: rgb(242, 243, 243);
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    border-bottom: 2px solid rgb(175, 173, 173);
+  }
+  .formButton {
+    height: 50px;
+    background-color: teal;
+    position: absolute;
+    bottom: 10%;
+    position: absolute;
+    border-radius: 10px;
+    width: 250px;
+    cursor: pointer;
+    margin-left: 60px !important;
+    margin-top: 50px;
+  }
+  .formButton:hover {
+    background-color: rgb(99, 189, 189);
+  }
